@@ -11,7 +11,7 @@
 1. このリポジトリをクローンします。
 '''bash
 git clone https://github.com/yourusername/numeron-game.git
-
+'''
 2. 
 
 3. 
