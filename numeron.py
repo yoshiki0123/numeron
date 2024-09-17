@@ -43,7 +43,7 @@ def user_input_judgment(user_input, answer):
 
 # main文
 def main():
-    print("Great&Goodを開始します!")
+    print("Gameを開始します!")
     answer = generate_answer() 
 
     for current_game_count in range(1,game_count+1):
@@ -54,7 +54,7 @@ def main():
             print("成解です!!")
             return 
         else:
-            print(f"Great:{Great_num}\nGood:{Good_num}")
+            print(f"Eat:{Great_num}\nBite:{Good_num}")
         
     print(f"残念でした。答えは{''.join(answer)}です。")
     
