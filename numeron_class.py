@@ -1,7 +1,7 @@
 import random 
 
 class Numeron():
-    def __init__(self, answer_length: int = 3, game_count: int = 10): 
+    def __init__(self, answer_length: int, game_count: int): 
         self.answer_length = answer_length
         self.game_count = game_count
         self.answer = self._generate_answer()
