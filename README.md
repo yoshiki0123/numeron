@@ -10,17 +10,17 @@
 ## 使い方
 1. このリポジトリをクローンします。
     ```bash
-    git clone https://github.com/yourusername/numeron-game.git
+    git clone https://github.com/yourusername/numeron.git
     ```
 
 2. プロジェクトディレクトリに移動します。
     ```bash
-    cd numeron-game
+    cd numeron
     ```
 
 3. Python でゲームを実行します。
     ```bash
-    python numeron.py
+    python main.py
     ```
 
 4. ターミナルに表示される指示に従い、3桁の数値を入力してゲームを楽しんでください。
